@@ -14,4 +14,3 @@ student_01: Student = Student("ali", 550)
 student_01.display()
 
 
-

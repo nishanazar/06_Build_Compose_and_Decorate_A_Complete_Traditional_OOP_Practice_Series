@@ -6,9 +6,9 @@ class Counter:
     def __init__(self):
         Counter.count += 1
 
-    @classmethod
-    def display_count(cls):
-        print(f"Total objects created: {cls.count}")
+    
+    def display_count():
+        print(f"Total objects created: {Counter.count}")
 
 counter_1 = Counter()  
 counter_2 = Counter()  
